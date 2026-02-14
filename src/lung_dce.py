@@ -371,7 +371,7 @@ def dce_motion_correction():
     
     # # Perform motion correction
     # coreg, fit, _, _ = mdreg.fit(
-    #     dce_vol.values, fit_image=fit_deconv, fit_coreg=fit_ants, 
+    #     dce_vol.values, fit_image=fit_pca, fit_coreg=fit_skimage, 
     #     maxit = 5, verbose = 2,
     # )
 
@@ -672,6 +672,7 @@ if __name__=='__main__':
     roi_analysis_model_free()
     pixel_analysis_model_free()
     pixel_analysis_model_based()
-    #view_maps()
     pixel_averages_model_based()
+
+    # view_maps()
     
