@@ -1,4 +1,24 @@
-Pipeline for processing 3D lung DCE with variable flip angle calibration
+# Case studies of miblab image processing pipelines
 
 
-Data are in DICOM, and results are exported in DICOM
+## Installation
+
+On Windows:
+
+Create a python environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+```bash
+.venv/Scripts/activate
+```
+
+Install the required packages:
+
+```bash
+pip install .
+```
